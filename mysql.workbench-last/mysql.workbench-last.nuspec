@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mysql.workbench-last</id>
+    <version>6.3.10</version>
+    <title>mysql.workbench-last</title>
+    <authors>sum</authors>
+    <projectUrl>http://xqx.com.br/public/mysql-workbench-community-6.3.10-winx64.msi</projectUrl>
+    <tags>mysql.workbench-last mysql workbench</tags>
+    <summary>mysql workbench 64bits</summary>
+    <description>mysql workbench by alcatraz </description>
+
+    <dependencies>
+      <dependency id="visual_c_2015" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
