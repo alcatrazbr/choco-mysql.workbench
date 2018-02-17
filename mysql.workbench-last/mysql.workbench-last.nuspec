@@ -5,7 +5,7 @@
     <version>6.3.10</version>
     <title>mysql.workbench-last</title>
     <authors>sum</authors>
-    <projectUrl>http://xqx.com.br/public/mysql-workbench-community-6.3.10-winx64.msi</projectUrl>
+    <projectUrl>https://github.com/alcatrazbr/choco-mysql.workbench</projectUrl>
     <tags>mysql.workbench-last mysql workbench</tags>
     <summary>mysql workbench 64bits</summary>
     <description>mysql workbench by alcatraz </description>
